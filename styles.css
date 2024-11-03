@@ -1,40 +1,41 @@
-/*  your css code here. If applicable */
 
-body{
-    background-color: rgb(204, 204, 204);
-}
+ body {
+      background-color: rgb(204, 204, 204);
+      font-family: Arial, sans-serif;
+    }
 
-.heading{
-    text-align: center;
-}
-li{
-    list-style-type: none;
-	color: black;
-}
-a{
-    text-decoration-line: none;
-}
+    h1, h2 {
+      text-align: center;
+    }
 
-.players{
-    background-color: rgb(255, 255, 255);
-    padding : 10px; 
-    border-radius : 10px;
-    border: 3px solid black;
-	display: flex;
-	flex-direction: column;
-	justify-content: center; 
-	align-items: center;
-}
-.playlist{
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 5px;
-}
+    ul {
+      padding: 0;
+    }
 
-.mainDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+    li {
+      list-style-type: none;
+      margin: 10px 0;
+    }
 
+    a {
+      text-decoration-line: none;
+      color: black;
+    }
 
+    .whiteBg{
+		background-color: rgb(255, 255, 255);
+		padding: 15px;
+        border-radius: 10px;
+        max-width: 600px;
+        margin: 20px auto;
+		border : 1px solid black;
+
+	}
+    .player_one, .player_two {
+      background-color: rgb(255, 255, 255);
+	  border : 1px solid black;
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
