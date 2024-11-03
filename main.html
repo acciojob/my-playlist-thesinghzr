@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<h1>My Playlist</h1>
-	<ul class="whiteBg">
-    <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 1</a></li>
-    <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 2</a></li>
-    <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 3</a></li>
-    <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 4</a></li>
-    <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 5</a></li>
-  </ul>
+<main>
+    <section>
+        <h1 class="center">My Playlist</h1>
+        <div class="playlist">
+            <ul>
+                <li><a href="link_to_song1" target="_blank" style="text-decoration: none;">Song 1</a></li>
+                <li><a href="link_to_song2" target="_blank" style="text-decoration: none;">Song 2</a></li>
+                <li><a href="link_to_song3" target="_blank" style="text-decoration: none;">Song 3</a></li>
+                <li><a href="link_to_song4" target="_blank" style="text-decoration: none;">Song 4</a></li>
+                <li><a href="link_to_song5" target="_blank" style="text-decoration: none;">Song 5</a></li>
+            </ul>
+        </div>
+    </section>
 
-  <h2>Now Playing...</h2>
-  <div class="player_one">
-    <video controls>
-      <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-    </video>
+    <h2 class="center">Now Playing...</h2>
 
-	 <h2>MP3 songs</h2>
-	  <p>Maan Meri Jaan</p>
-	 <audio controls>
-      <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
-    </audio>
-  </div>
+    <section style="border-style: solid; background-color: white;">
+        <div style="margin: 10px;">
+            <div>
+                <video class="player_one" controls>
+                    <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
-    <script type="text/javascript" src="./script.js">
-</script>
+            <h2 class="center">MP3 songs</h2>
+            <div>
+                <p><a href="link_to_mp3" style="text-decoration: none;">Maan Meri Jaan</a></p>
+                <audio class="player_two" controls>
+                    <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+</main>
 
+<!-- the entire body must be written by student -->
+<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>

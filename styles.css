@@ -1,41 +1,25 @@
+/*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204)
+}
+.playlist{
+	border-style:solid
+}
+.center{
+	text-align:center
+}
+.player_one{
+	background-color: rgb(255, 255, 255); padding: border-radius
+}
+.player_two{
+	background-color: rgb(255, 255, 255);
+	padding: border-radius	
+}
+ul {
+    list-style-type: none;
+   /* Optional: Remove default padding */
+}
 
- body {
-      background-color: rgb(204, 204, 204);
-      font-family: Arial, sans-serif;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    ul {
-      padding: 0;
-    }
-
-    li {
-      list-style-type: none;
-      margin: 10px 0;
-    }
-
-    a {
-      text-decoration-line: none;
-      color: black;
-    }
-
-    .whiteBg{
-		background-color: rgb(255, 255, 255);
-		padding: 15px;
-        border-radius: 10px;
-        max-width: 600px;
-        margin: 20px auto;
-		border : 1px solid black;
-
-	}
-    .player_one, .player_two {
-      background-color: rgb(255, 255, 255);
-	  border : 1px solid black;
-      padding: 15px;
-      border-radius: 10px;
-      max-width: 600px;
-      margin: 20px auto;
-    }
+li {
+    list-style-type: none;
+}
